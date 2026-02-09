@@ -7,6 +7,11 @@
 - 3D Beveled Button Style like win95
 - win95 colorscheme
 
+<h3>Requirments -></h1>
+
+- enable compact mode
+- disable animation (optional)
+- use light theme
 
 https://github.com/user-attachments/assets/4c6f4cc9-0afa-45ef-8495-9664bd8946e9
 
