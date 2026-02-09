@@ -1,0 +1,218 @@
+/* =========================================================
+   WINDOWS 95 VESKTOP
+   Font: BigBlueTerm437 Nerd Font
+   ========================================================= */
+
+/* ---------- COLORS ---------- */
+:root {
+  --bg: #c0c0c0;
+  --fg: #000000;
+  --white: #ffffff;
+  --gray: #808080;
+  --blue: #000080;
+  --red: #800000;
+}
+
+/* ---------- HARD RESET ---------- */
+* {
+  border-radius: 0 !important;
+  box-shadow: none !important;
+  animation: none !important;
+  transition: none !important;
+  backdrop-filter: none !important;
+}
+
+/* ---------- BASE APP ---------- */
+body,
+.appMount,
+.app,
+.layer-86YKbF,
+.container-2o3qEW {
+  background: var(--bg) !important;
+  color: var(--fg) !important;
+  font-family: "BigBlueTerm437 Nerd Font", monospace !important;
+  font-size: 10px !important;
+  line-height: 1.25em !important;
+  letter-spacing: -0.3px !important;
+}
+
+/* ---------- MAIN WINDOW FRAME ---------- */
+.appMount {
+  border-top: 2px solid var(--white);
+  border-left: 2px solid var(--white);
+  border-right: 2px solid var(--gray);
+  border-bottom: 2px solid var(--gray);
+}
+
+/* ---------- TITLE BAR ---------- */
+.title-31SJ6t,
+.container-1NXEtd {
+  background: var(--blue) !important;
+  color: var(--white) !important;
+  font-weight: bold !important;
+  font-size: 10px !important;
+  padding: 2px 6px !important;
+  border-bottom: 1px solid var(--fg);
+}
+
+/* ---------- PANELS ---------- */
+.sidebar-1tnWFu,
+.wrapper-1_HaEi,
+.members-3WRCEx,
+.chat-2ZfjoI,
+.container-1oAagU {
+  background: var(--bg) !important;
+  border-right: 1px solid var(--gray);
+}
+
+/* ---------- MESSAGE VIEW ---------- */
+.messagesWrapper-RpOMA3 {
+  background: var(--white) !important;
+  margin: 4px;
+  padding: 2px;
+  border-top: 2px solid var(--gray);
+  border-left: 2px solid var(--gray);
+  border-right: 2px solid var(--white);
+  border-bottom: 2px solid var(--white);
+}
+
+/* ---------- INPUTS (INSET) ---------- */
+input,
+textarea,
+.searchBar-3TnChZ,
+.scrollableContainer-15eg7h {
+  background: var(--white) !important;
+  color: var(--fg) !important;
+  font-size: 10px !important;
+  padding: 3px !important;
+
+  border-top: 2px solid var(--gray) !important;
+  border-left: 2px solid var(--gray) !important;
+  border-right: 2px solid var(--white) !important;
+  border-bottom: 2px solid var(--white) !important;
+}
+
+/* =========================================================
+   TRUE WINDOWS 95 BUTTON SYSTEM (ALL TYPES)
+   ========================================================= */
+
+/* NORMAL BUTTONS + ICON BUTTONS */
+button,
+.button-1EGGcP,
+.iconButton-2rHy7x,
+.actionButton-3W1xZa,
+.lookFilled-1H2Jvj,
+.lookOutlined-3yKVGo {
+  background: var(--bg) !important;
+  color: var(--fg) !important;
+
+  font-family: "BigBlueTerm437 Nerd Font", monospace !important;
+  font-size: 10px !important;
+
+  padding: 2px 8px !important;
+
+  border-top: 2px solid var(--white) !important;
+  border-left: 2px solid var(--white) !important;
+  border-right: 2px solid var(--gray) !important;
+  border-bottom: 2px solid var(--gray) !important;
+}
+
+/* PRESSED */
+button:active,
+.button-1EGGcP:active,
+.iconButton-2rHy7x:active,
+.lookFilled-1H2Jvj:active {
+  border-top: 2px solid var(--gray) !important;
+  border-left: 2px solid var(--gray) !important;
+  border-right: 2px solid var(--white) !important;
+  border-bottom: 2px solid var(--white) !important;
+  padding: 3px 7px 1px 9px !important;
+}
+
+/* =========================================================
+   TABS (Online / All / Pending / Add Friend)
+   ========================================================= */
+
+.tabBar-2hXqzU .item-3XjbnG {
+  background: var(--bg) !important;
+  color: var(--fg) !important;
+
+  padding: 2px 8px !important;
+  margin-right: 4px !important;
+
+  border-top: 2px solid var(--white);
+  border-left: 2px solid var(--white);
+  border-right: 2px solid var(--gray);
+  border-bottom: 2px solid var(--gray);
+}
+
+/* ACTIVE TAB = PUSHED IN */
+.tabBar-2hXqzU .item-3XjbnG.selected-1sf9UK {
+  border-top: 2px solid var(--gray);
+  border-left: 2px solid var(--gray);
+  border-right: 2px solid var(--white);
+  border-bottom: 2px solid var(--white);
+  background: var(--bg) !important;
+}
+
+/* =========================================================
+   CONTEXT MENUS (RIGHT CLICK)
+   ========================================================= */
+
+.menu-1QACrS {
+  background: var(--bg) !important;
+  padding: 2px !important;
+
+  border-top: 2px solid var(--white);
+  border-left: 2px solid var(--white);
+  border-right: 2px solid var(--gray);
+  border-bottom: 2px solid var(--gray);
+}
+
+.menu-1QACrS .item-1OdjEX {
+  background: var(--bg) !important;
+  color: var(--fg) !important;
+  font-size: 10px !important;
+  padding: 3px 24px 3px 6px !important;
+}
+
+.menu-1QACrS .item-1OdjEX:hover,
+.menu-1QACrS .item-1OdjEX.focused-3qFvc8 {
+  background: var(--blue) !important;
+  color: var(--white) !important;
+}
+
+.menu-1QACrS .separator-1So4YB {
+  height: 2px !important;
+  margin: 4px 2px !important;
+  border-top: 1px solid var(--gray);
+  border-bottom: 1px solid var(--white);
+}
+
+/* ---------- LINKS / SELECTION ---------- */
+a {
+  color: var(--blue) !important;
+}
+
+::selection {
+  background: var(--blue);
+  color: var(--white);
+}
+
+/* ---------- SCROLLBARS ---------- */
+::-webkit-scrollbar {
+  width: 14px;
+}
+::-webkit-scrollbar-track {
+  background: var(--bg);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--gray);
+  border: 2px solid var(--bg);
+}
+
+/* ---------- NO MODERN GLOW ---------- */
+svg,
+path {
+  filter: none !important;
+}
